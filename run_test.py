@@ -12,7 +12,8 @@ print(pydna_log_dir)
 print(pydna_config_dir)
 
 
-os.makedirs(pydna_data_dir)
-os.makedirs(pydna_log_dir)
-os.makedirs(pydna_config_dir)
+
+print( os.path.exists(pydna_data_dir)    )
+print( os.path.exists(pydna_log_dir)     )
+print( os.path.exists(pydna_config_dir)  )
 
